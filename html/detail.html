@@ -1,0 +1,47 @@
+<div class='row'>
+    <div class='col-12 col-sm-5'>
+        <img id='img' style='width: 100%; height: 100%;'>
+    </div>
+
+    <div class='col-12 col-sm-7'>
+        <h4 id='name'></h4>
+        <p id='subcategory' class='mb-4 text-muted text-uppercase small'></p>
+
+        <table>
+            <tr>
+                <td>Country</td>
+                <td class="ps-3" id='country'></td>
+            </tr>
+            <tr>
+                <td class="pt-3 pb-3">Price</td>
+                <td class="pt-3 pb-3 ps-3"><strong><span id='price'></span> VNĐ</strong></td>
+            </tr>
+        </table>
+
+        <p id='description'></p>
+
+        <div class='d-flex mt-4'>
+            <button class='btn btn-success d-flex align-items-center rounded-0'
+                onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                <span class='material-icons'>remove</span>
+            </button>
+
+            <input class='form-control border-success no-spinner text-center rounded-0' min='0' value='1' type='number'
+                style='width: 75px; -webkit-box-shadow: none !important; -moz-box-shadow: none !important; box-shadow: none !important;'>
+
+            <button class='btn btn-success d-flex align-items-center rounded-0'
+                onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                <span class='material-icons'>add</span>
+            </button>
+
+            <div class="row">
+                <div class="col-12">
+                    <button class='btn btn-success ms-2 d-flex align-items-center'>
+                        <span class='material-icons me-2'>add_shopping_cart</span>
+                        Add to cart
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

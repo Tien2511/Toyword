@@ -1,0 +1,49 @@
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#" id="nav-login">Login</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Register</li>
+    </ol>
+</nav>
+
+<form id="frm-register" aria-describedby="frmHelp">
+    <div id="error"></div>
+
+    <div class="mb-3">
+        <label for="username" class="form-label">Username</label>
+        <input type="email" class="form-control" name="username" id="username" required>
+    </div>
+
+    <div class="mb-3">
+        <label for="password" class="form-label">Password</label>
+        <input type="password" class="form-control" name="password" id="password" required minlength="6" maxlength="20">
+    </div>
+
+    <div class="mb-3">
+        <label for="confirm-password" class="form-label">Confirm Password</label>
+        <input type="password" class="form-control" name="confirm-password" id="confirm-password" required minlength="6"
+            maxlength="20">
+    </div>
+
+    <div class="mb-3">
+        <label for="fullname" class="form-label">Fullname</label>
+        <input type="text" class="form-control" name="fullname" id="fullname" required>
+    </div>
+
+    <div class="mb-3">
+        <label for="phone" class="form-label">Phone</label>
+        <input type="tel" class="form-control" name="phone" id="phone">
+    </div>
+
+    <div class="mb-3">
+        <label for="birthday" class="form-label">Birthday</label>
+        <input type="date" class="form-control" name="birthday" id="birthday">
+    </div>
+
+    <div class="mb-3">
+        <label for="age" class="form-label">Age</label>
+        <input type="number" class="form-control" name="age" id="age">
+    </div>
+
+    <button type="submit" class="btn btn-success">Register</button>
+    <input type="reset" class="btn btn-success" value="Clear">
+</form>

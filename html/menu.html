@@ -1,0 +1,119 @@
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #E5FBE5;">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="material-icons">menu</span>
+        </button>
+
+        <a class="navbar-brand" href="#" id="nav-home">ATN</a>
+
+        <div class="d-flex order-lg-1 ml-auto">
+            <a class="navbar-text me-3" href="#" id="nav-search">
+                <span class="material-icons">search</span>
+            </a>
+
+            <a class="navbar-text me-3" href="#" id="nav-cart">
+                <span class="material-icons">shopping_cart</span>
+            </a>
+
+            <a class="navbar-text" href="#" id="nav-logout" style="display: none;">
+                <span class="material-icons">login</span>
+            </a>
+
+            <a class="navbar-text me-3" href="#" id="nav-login">
+                <span class="material-icons">person</span>
+            </a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#" id="nav-home">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#" id="nav-product">All Products</a>
+                </li>
+
+                <li class="nav-item dropdown" id="nav-category">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Category
+                    </a>
+
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#" id="nav-action">Action Figures &amp; Playsets</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#" id="nav-puzzle">Games &amp; Puzzles</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#" id="nav-outdoor">Outdoor Play</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#" id="nav-vehicle">Vehicles &amp; Remote Control</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item dropdown" id="nav-sex">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Sex
+                    </a>
+
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#" id="nav-boy">Boy</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#" id="nav-girl">Girl</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#" id="nav-unisex">Unisex</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item dropdown" id="nav-age">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Age
+                    </a>
+
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#" id="nav-0-year">&lt; 01 years</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#" id="nav-1-year">01 - 03 years</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#" id="nav-3-year">03 - 06 years</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#" id="nav-6-year">&gt; 06 years</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item" id="nav-contact">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div style="display: none;" id="frm-search-container">
+    <form class="d-flex" id="frm-search">
+        <input class="form-control border-success rounded-0" type="search" placeholder="Search">
+
+        <button class="btn btn-success rounded-0 d-flex align-items-center" type="submit">
+            <span class="material-icons">search</span>
+        </button>
+    </form>
+</div>

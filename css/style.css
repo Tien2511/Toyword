@@ -1,0 +1,25 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+input[type=number].no-spinner::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button
+{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.product #product-img {
+    cursor: pointer;
+    overflow: hidden;
+    height: 150px;
+}
+
+.product:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.35);
+}
+
+.breadcrumb {
+    font-size: 13px;
+}
